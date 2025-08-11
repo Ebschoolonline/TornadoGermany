@@ -1,17 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>Tornado global</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript App</h1>
-  </main>
-</body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <img src="logo.svg" alt="Tornado Logo" class="logo">
+            </div>
 
+        </nav>
+        <main>
+            <section class="video-section">
+                <h2> Videos</h2>
+                <div class="video-container">
+                    <div class="video-wrapper">
+                        <div class="video-card">
+                            <video controls="true" controlsList="nodownload" preload="auto" 
+                                poster="./alaraby-poster.jpeg"
+                                src="https://ik.imagekit.io/elarabykit/Tornadoglobal/New%20Doc%20Arabic.mp4?tr=orig" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h3>ELARABY, A Legacy of Trust & Excellence</h3>
+                                <p class="video-description">Discover ELARABY's journey in delivering innovation, manufacturing excellence, and leadership in the home appliances industry.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video-wrapper">
+                        <div class="video-card">
+                            <video controls="true" controlsList="nodownload" preload="auto"
+                                poster="./tornedo-poster.jpeg"
+                                src="https://ik.imagekit.io/elarabykit/Tornadoglobal/Tornado_Film_English_Mobile.mp4?tr=orig" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-info">
+                                <h3>The TORNADO Experience</h3>
+                                <p class="video-description">From morning to night, through every season, TORNADO is your everyday companion—delivering reliable, practical solutions designed for comfort and ease.</p>
+                            </div>
+                        </div>
+                    </div>
+  
+
+
+                </div>
+            </section>
+
+            <section class="pdf-section">
+                <h2>TORNADO E-Catalogue</h2>
+                <div class="pdf-container">
+                    <h4>Explore Our Product Family</h4>
+      
+                    <p>Discover a wide range of reliable and accessible home solutions—designed to make everyday life easier, smarter, and more comfortable.</p>
+                              
+                    <a href="https://ik.imagekit.io/elarabykit/Tornadoglobal/TORNADO%20EXPORT%20CATA-2025.pdf" 
+                    target="_blank"
+                    download="TORNADO-EXPORT-CATALOG-2025.pdf"
+                    class="pdf-link">
+
+                     <i class="fas fa-file-pdf"></i>
+                     <span>Download PDF</span>
+                     <i class="fas fa-download"></i>
+                 </a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p class="copyright">&copy; 2025 TORNADO . All rights reserved.</p>
+        </footer>
+    </div>
+</body>
 </html>
