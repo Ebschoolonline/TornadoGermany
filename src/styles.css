@@ -128,7 +128,7 @@ h2 {
     gap: 10px;
 }
 
-.video-section, .pdf-section {
+.video-section, .frame-section, .pdf-section {
     background: var(--card-bg);
     padding: 30px;
     border-radius: 15px;
@@ -140,7 +140,7 @@ h2 {
     text-align: start;
 }
 
-.pdf-section {
+.pdf-section, .frame-section {
     background: var(--card-bg);
     padding: 30px;
     border-radius: 15px;
@@ -149,6 +149,7 @@ h2 {
 }
 
 .pdf-section h2,
+.frame-section h2,
 .pdf-container p {
     text-align: start;
 }
@@ -246,6 +247,25 @@ video {
     font-size: 0.9rem;
 }
 
+/* Frame Section Styles */
+.frame-section {
+    padding: 0;
+    background: none;
+    box-shadow: none;
+    margin-bottom: 30px;
+}
+
+.frame-link {
+    display: block;
+    width: 100%;
+}
+
+.frame-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 footer {
     text-align: center;
     padding: 30px 20px;
@@ -332,8 +352,8 @@ footer i {
         padding: 15px;
     }
 
-    .video-section, .pdf-section {
-        padding: 20px;
+    .video-section, .frame-section, .pdf-section {
+        padding: 8px;
     }
 
     .video-container {
