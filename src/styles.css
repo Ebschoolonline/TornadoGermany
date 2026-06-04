@@ -128,7 +128,9 @@ h2 {
     gap: 10px;
 }
 
-.video-section, .frame-section, .pdf-section {
+.video-section,
+.frame-section,
+.pdf-section {
     background: var(--card-bg);
     padding: 30px;
     border-radius: 15px;
@@ -140,7 +142,8 @@ h2 {
     text-align: start;
 }
 
-.pdf-section, .frame-section {
+.pdf-section,
+.frame-section {
     background: var(--card-bg);
     padding: 30px;
     border-radius: 15px;
@@ -228,7 +231,8 @@ video {
     width: 100%;
     display: block;
     border-radius: 12px 12px 0 0;
-
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
 }
 
 
@@ -352,7 +356,9 @@ footer i {
         padding: 15px;
     }
 
-    .video-section, .frame-section, .pdf-section {
+    .video-section,
+    .frame-section,
+    .pdf-section {
         padding: 8px;
     }
 
@@ -375,30 +381,30 @@ footer i {
         gap: 15px;
         align-items: center;
     }
-    
+
     .lang-switcher {
         margin: 0;
         position: relative;
         width: 100%;
         max-width: 200px;
     }
-    
+
     .lang-current {
         width: 100%;
         justify-content: space-between;
     }
-    
+
     .lang-dropdown {
         width: 100%;
         position: absolute;
         left: 0;
         right: 0;
     }
-    
+
     [dir="rtl"] .lang-switcher {
         margin: 0;
     }
-    
+
     [dir="rtl"] .lang-dropdown {
         left: 0;
         right: 0;
