@@ -130,6 +130,7 @@ h2 {
 
 .video-section,
 .frame-section,
+.instagram-section,
 .pdf-section {
     background: var(--card-bg);
     padding: 30px;
@@ -143,7 +144,8 @@ h2 {
 }
 
 .pdf-section,
-.frame-section {
+.frame-section,
+.instagram-section {
     background: var(--card-bg);
     padding: 30px;
     border-radius: 15px;
@@ -153,6 +155,7 @@ h2 {
 
 .pdf-section h2,
 .frame-section h2,
+.instagram-section h2,
 .pdf-container p {
     text-align: start;
 }
@@ -252,19 +255,23 @@ video {
 }
 
 /* Frame Section Styles */
-.frame-section {
+.frame-section,
+.instagram-section {
     padding: 0;
     background: none;
     box-shadow: none;
     margin-bottom: 30px;
 }
 
-.frame-link {
+.frame-link,
+.pdf-link,
+.instagram-link {
     display: block;
     width: 100%;
 }
 
-.frame-image {
+.frame-image,
+.instagram-image {
     display: block;
     width: 100%;
     height: auto;
