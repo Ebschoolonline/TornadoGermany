@@ -279,8 +279,31 @@ video {
 
 footer {
     text-align: center;
-    padding: 30px 20px;
+    padding: 30px 0px;
     color: #666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: var(--text-dark);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
 }
 
 footer p {
@@ -416,6 +439,12 @@ footer i {
     [dir="rtl"] .lang-dropdown {
         left: 0;
         right: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
     }
 }
 
