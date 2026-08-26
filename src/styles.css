@@ -10,7 +10,6 @@
     --font-arabic: 'Cairo', sans-serif;
 }
 
-/* Font Face Declarations */
 @font-face {
     font-family: 'Mont';
     src: url('./Mont/Mont-Regular.ttf') format('truetype');
