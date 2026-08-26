@@ -394,6 +394,7 @@ footer i {
     transform: translateY(-6px);
     transition: opacity 0.2s ease, transform 0.2s ease;
     pointer-events: none;
+    gap: 5px !important;
 }
 
 .lang-dropdown.show {
@@ -401,6 +402,7 @@ footer i {
     opacity: 1;
     transform: translateY(0);
     pointer-events: auto;
+    gap: 5px !important;
 }
 
 [dir="rtl"] .lang-dropdown {
@@ -411,7 +413,6 @@ footer i {
 .lang-option {
     display: flex;
     align-items: center;
-    gap: 10px;
     padding: 9px 12px;
     border: none;
     background: transparent;
