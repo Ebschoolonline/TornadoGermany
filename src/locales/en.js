@@ -24,7 +24,7 @@ export default {
     // Instagram Section
     instaLinkAria: "Follow Us on Instagram",
     instaImgAlt: "Follow Us on Instagram",
-    instaImgSrc: "img/insta-ge.png",
+    instaImgSrc: "img/insta-en.png",
     instaLinkHref: "https://www.instagram.com/tornadohome.de/",
 
     // Product Catalog Section
