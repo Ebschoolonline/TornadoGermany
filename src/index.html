@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
 
     <link rel="icon" type="image/png" href="img/favicon.png">
 
     <!-- WhatsApp / Open Graph Preview Meta Tags -->
     <meta property="og:image" content="https://tornado-fairs.com/img/favicon.png">
-    <meta property="og:title" content="TORNADO – Alltagstaugliche Lösungen für modernes Wohnen">
-    <meta property="og:description"
-        content="TORNADO bietet zuverlässige, praktische und preisbewusste Lösungen für modernes Wohnen – von Haushaltsgroßgeräten bis zu kleinen Alltagshelfern.">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
 
-    <title>TORNADO – Alltagstaugliche Lösungen für modernes Wohnen</title>
+    <title></title>
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -24,15 +24,16 @@
 
         <nav class="navbar">
             <div class="nav-brand">
-                <img src="img/logo.svg" alt="TORNADO Logo" class="logo">
+                <img src="img/logo.svg" alt="" class="logo" data-i18n-alt="logoAlt">
             </div>
+            <div class="lang-switcher" id="lang-switcher"></div>
         </nav>
 
         <main>
 
             <!-- Videos -->
             <section class="video-section">
-                <h2>Videos</h2>
+                <h2 data-i18n="videosHeading"></h2>
 
                 <div class="video-container">
 
@@ -43,18 +44,12 @@
                                 poster="./img/alaraby-poster.jpeg"
                                 src="https://ik.imagekit.io/elarabykit/Tornadoglobal/DocumentryEnglish.mp4?tr=orig"
                                 type="video/mp4">
-                                Ihr Browser unterstützt das Video-Tag nicht.
+                                <span data-i18n="videoUnsupported"></span>
                             </video>
 
                             <div class="video-info">
-                                <h3>ELARABY – Tradition, Vertrauen und industrielle Kompetenz</h3>
-
-                                <p class="video-description">
-                                    Die Geschichte von ELARABY ist geprägt von Innovationskraft,
-                                    Fertigungsexzellenz und jahrzehntelanger Erfahrung. Als einer der
-                                    führenden Hersteller von Haushaltsgeräten steht ELARABY für Qualität,
-                                    Verlässlichkeit und nachhaltiges Wachstum.
-                                </p>
+                                <h3 data-i18n="video1Title"></h3>
+                                <p class="video-description" data-i18n="video1Desc"></p>
                             </div>
 
                         </div>
@@ -67,18 +62,12 @@
                                 poster="./img/tornedo-poster.jpeg"
                                 src="https://ik.imagekit.io/elarabykit/Tornadoglobal/Tornado_Film_English_Mobile.mp4?tr=orig"
                                 type="video/mp4">
-                                Ihr Browser unterstützt das Video-Tag nicht.
+                                <span data-i18n="videoUnsupported"></span>
                             </video>
 
                             <div class="video-info">
-                                <h3>TORNADO – Alltagstaugliche Lösungen für modernes Wohnen</h3>
-
-                                <p class="video-description">
-                                    TORNADO begleitet Verbraucher durch den Alltag – mit zuverlässigen,
-                                    praktischen und preisbewussten Lösungen für jeden Wohnbereich.
-                                    Entwickelt für Komfort, Leistung und ein überzeugendes
-                                    Preis-Leistungs-Verhältnis, auf das sich Familien Tag für Tag verlassen können.
-                                </p>
+                                <h3 data-i18n="video2Title"></h3>
+                                <p class="video-description" data-i18n="video2Desc"></p>
                             </div>
 
                         </div>
@@ -89,20 +78,22 @@
 
             <!-- Official Website -->
             <section class="frame-section">
-                <a href="https://tornadohome.com/" target="_blank" class="frame-link"
-                    aria-label="Offizielle Website besuchen">
+                <a href="" target="_blank" class="frame-link"
+                    data-i18n-aria="frameLinkAria" data-i18n-href="frameLinkHref">
 
-                    <img src="img/frame-ge.png" alt="Offizielle Website von TORNADO" class="frame-image">
+                    <img src="" alt="" class="frame-image"
+                        data-i18n-src="frameImgSrc" data-i18n-alt="frameImgAlt">
 
                 </a>
             </section>
 
             <!-- Instagram -->
             <section class="instagram-section">
-                <a href="https://www.instagram.com/tornadohome.de/" target="_blank" rel="noopener noreferrer"
-                    class="instagram-link" aria-label="TORNADO auf Instagram folgen">
+                <a href="" target="_blank" rel="noopener noreferrer"
+                    class="instagram-link" data-i18n-aria="instaLinkAria" data-i18n-href="instaLinkHref">
 
-                    <img src="img/insta-ge.png" alt="TORNADO auf Instagram folgen" class="instagram-image">
+                    <img src="" alt="" class="instagram-image"
+                        data-i18n-src="instaImgSrc" data-i18n-alt="instaImgAlt">
 
                 </a>
             </section>
@@ -110,28 +101,23 @@
             <!-- Product Catalog -->
             <section class="pdf-section">
 
-                <h2>Willkommen in der TORNADO Produktwelt</h2>
+                <h2 data-i18n="catalogHeading"></h2>
 
                 <div class="pdf-container">
 
-                    <h4>Willkommen in der TORNADO Produktwelt</h4>
+                    <h4 data-i18n="catalogSubheading"></h4>
 
-                    <p>
-                        Von Haushaltsgroßgeräten bis zu kleinen Alltagshelfern:
-                        TORNADO bietet ein breites Sortiment an zuverlässigen und preisbewussten
-                        Lösungen für modernes Wohnen. Entwickelt für die Anforderungen des täglichen
-                        Lebens – mit Fokus auf Komfort, Funktionalität und ein überzeugendes
-                        Preis-Leistungs-Verhältnis.
-                    </p>
+                    <p data-i18n="catalogDesc"></p>
 
-                    <a href="./00_KATALOG_2026_EURONICS.pdf" target="_blank" download="00_KATALOG_2026_EURONICS.pdf"
-                        class="pdf-link" aria-label="TORNADO Produktkatalog als PDF herunterladen">
+                    <a href="" target="_blank" download=""
+                        class="pdf-link" data-i18n-href="catalogPdfHref" data-i18n-download="catalogPdfDownload"
+                        data-i18n-aria="catalogBtnAria">
 
                         <i class="fas fa-file-pdf" aria-hidden="true"></i>
 
-                        <span>TORNADO Produktkatalog</span>
+                        <span data-i18n="catalogBtnText"></span>
 
-                        <span class="sr-only">PDF herunterladen</span>
+                        <span class="sr-only" data-i18n="catalogSrOnly"></span>
 
                         <i class="fas fa-download" aria-hidden="true"></i>
 
@@ -147,23 +133,21 @@
 
             <div class="footer-links">
 
-                <a href="https://www.tornadohome.com/legal-notice?country=de" target="_blank">
-                    Impressum
-                </a>
+                <a href="" target="_blank"
+                    data-i18n-href="footerLegalHref" data-i18n="footerLegalNotice"></a>
 
-                <a href="https://www.tornadohome.com/rop?country=de" target="_blank">
-                    Verarbeitungsverzeichnis
-                </a>
+                <a href="" target="_blank"
+                    data-i18n-href="footerProcessingHref" data-i18n="footerProcessingRecord"></a>
 
             </div>
 
-            <p class="copyright">
-                &copy; 2026 TORNADO. Alle Rechte vorbehalten.
-            </p>
+            <p class="copyright" data-i18n="footerCopyright"></p>
 
         </footer>
 
     </div>
+
+    <script type="module" src="i18n.js"></script>
 </body>
 
 </html>
