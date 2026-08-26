@@ -425,6 +425,7 @@ footer i {
     color: var(--text-dark);
     transition: all 0.2s ease;
     outline: none;
+    gap: 10px !important;
 }
 
 .lang-option:hover {
