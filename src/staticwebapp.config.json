@@ -1,0 +1,27 @@
+{
+  "navigationFallback": {
+    "rewrite": "/index.html",
+    "exclude": [
+      "/img/*",
+      "/Mont/*",
+      "/*.pdf",
+      "/*.css",
+      "/*.js",
+      "/*.png",
+      "/*.svg",
+      "/*.jpeg",
+      "/*.jpg",
+      "/*.ico"
+    ]
+  },
+  "routes": [
+    {
+      "route": "/",
+      "redirect": "/en",
+      "statusCode": 302
+    }
+  ],
+  "mimeTypes": {
+    ".json": "application/json"
+  }
+}
