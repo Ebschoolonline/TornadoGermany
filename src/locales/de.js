@@ -39,8 +39,8 @@ export default {
 
     // Footer
     footerLegalNotice: "Impressum",
-    footerLegalHref: "https://www.tornadohome.com/legal-notice?country=de",
+    footerLegalHref: "https://www.tornadohome.com/de/legal-notice?country=de",
     footerProcessingRecord: "Verarbeitungsverzeichnis",
-    footerProcessingHref: "https://www.tornadohome.com/rop?country=de",
+    footerProcessingHref: "https://www.tornadohome.com/de/rop?country=de",
     footerCopyright: "© 2026 TORNADO. Alle Rechte vorbehalten."
 };
