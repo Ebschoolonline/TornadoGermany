@@ -34,8 +34,8 @@ export default {
     catalogBtnText: "PDF herunterladen",
     catalogBtnAria: "PDF herunterladen",
     catalogSrOnly: "PDF herunterladen",
-    catalogPdfHref: "./00_KATALOG_2026_EURONICS.pdf",
-    catalogPdfDownload: "00_KATALOG_2026_EURONICS.pdf",
+    catalogPdfHref: "./TORNADO%20EU%20Catalogue%20-%20OK%20-%204.9.2026.pdf",
+    catalogPdfDownload: "TORNADO EU Catalogue - OK - 4.9.2026.pdf",
 
     // Footer
     footerLegalNotice: "Impressum",
