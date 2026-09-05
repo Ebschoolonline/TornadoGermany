@@ -34,8 +34,8 @@ export default {
     catalogBtnText: "Download PDF",
     catalogBtnAria: "Download PDF",
     catalogSrOnly: "Download PDF",
-    catalogPdfHref: "./TORNADO-Poducts-for-EU.pdf",
-    catalogPdfDownload: "TORNADO-EXPORT-CATALOG-2025.pdf",
+    catalogPdfHref: "./TORNADO%20EU%20Catalogue%20-%20OK%20-%204.9.2026.pdf",
+    catalogPdfDownload: "TORNADO EU Catalogue - OK - 4.9.2026.pdf",
 
     // Footer
     footerLegalNotice: "Legal Notice",
